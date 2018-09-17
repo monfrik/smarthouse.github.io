@@ -1,0 +1,19 @@
+.item{
+ margin: 20px 0;
+}
+h2{
+ font-size: 2em;
+}
+.favourites{
+ margin-top: 70px;
+}
+.favourites > .container > .item:nth-child(1) > a{
+ background: url(../image/entrancedoor.jpg) no-repeat;
+ background-size: contain;
+ background-position: left;
+}
+.favourites > .container > .item:nth-child(2) > a{
+ background: url(../image/chandelier/21.png) no-repeat;
+ background-size: contain;
+ background-position: left;
+}

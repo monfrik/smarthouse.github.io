@@ -1,0 +1,25 @@
+.room {
+ margin-bottom: 50px;
+}
+.room > h2{
+ font-size: 36px;
+}
+.room > a{
+ display: block;
+ width: 335px;
+ height: 159px;
+}
+@media (max-width: 500px) {
+ .container{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+ }
+}
+@media screen and (min-width: 400px) {
+ .room > a{
+  width: 1000px;
+  height: 562px;
+ }
+}

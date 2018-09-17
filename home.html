@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+ <title>Умный дом</title>
+</head>
+<body>
+ <header class="active">
+  <a href="#" class="expend"><div class="line"></div><div class="line"></div><div class="line"></div></a>
+  <div class="row">
+   <a href="#"></a>
+   <nav>
+    <ul>
+     <li><a href="home.html">Главная</a></li>
+     <li><a href="bathroom.html">Ванная</a></li>
+     <li><a href="kichen.html">Кухня</a></li>
+     <li><a href="bedroom.html">Спальня</a></li>
+     <li><a href="livingroom.html">Гостиная</a></li>
+    </ul>
+   </nav>
+   <div class="profile">
+    <p>Имя пользователя</p>
+    <a href="#"></a>
+   </div>
+  </div>
+ </header>
+ <main>
+  <section class="rooms">
+   <h2>Доступные комнаты</h2>
+   <div class="container">
+    <section class="item" data-type="room">
+     <h3>Ванная</h3>
+     <a href="bathroom.html" data-room="Ванная"></a>
+    </section>
+    <section class="item" data-type="room">
+     <h3>Кухня</h3>
+     <a href="kichen.html" data-room="Кухня"></a>
+    </section>
+    <section class="item" data-type="room">
+     <h3>Спальня</h3>
+     <a href="bedroom.html" data-room="Спальня"></a>
+    </section>
+    <section class="item" data-type="room">
+     <h3>Гостиная</h3>
+     <a href="livingroom.html" data-room="Гостиная"></a>
+    </section>
+   </div>
+  </section>
+  <section class="favourites">
+   <h2>Избранное</h2>
+   <div class="container">
+    <section class="item" data-type="appliance">
+     <h3>Входная дверь</h3>
+     <a href="door.html" data-state="Закрыта"></a>
+    </section>
+    <section class="item" data-type="appliance">
+     <h3>Свет в коридоре</h3>
+     <a href="light.html" data-state="Выключен"></a>
+    </section>
+   </div>
+  </section>
+ </main>
+ <script src="js/script.js"></script>
+</body>
+</html>

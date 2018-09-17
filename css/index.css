@@ -1,0 +1,50 @@
+body{
+ color: white;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ font-size: 18px;
+ max-height: 100%;
+ overflow-y: hidden;
+}
+div{
+ margin: auto;
+ max-width: 343px;
+}
+div > img{
+ width: 150px;
+ height: 150px;
+ margin: auto;
+ display: block;
+}
+div > form{
+ width: auto;
+}
+div > form > input{
+ color: white;
+ padding-left: 5%;
+ background-color: inherit;
+ border: none;
+ border-bottom: 1px solid white;
+ width: 95%;
+ height: 40px;
+}
+div > form > input:focus{
+ outline: none;
+}
+div > form > input:nth-child(2){
+ margin-top: 10px;
+}
+div > form > a{
+ margin-top: 20px;
+ display: block;
+ width: 100%;
+ background-color: white;
+ padding: 10px 0;
+ color: #180035;
+ text-align: center;
+}
+div > form > a:hover{
+ background-color: inherit;
+ color: white;
+}
